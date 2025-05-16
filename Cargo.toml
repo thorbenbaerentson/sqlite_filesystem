@@ -1,0 +1,12 @@
+[package]
+name = "sqlite-filesystem"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4.41"
+sqlite-loadable = { git = "https://github.com/thorbenbaerentson/sqlite-loadable-rs" }
+
+
+[lib]
+crate-type=["cdylib"]
